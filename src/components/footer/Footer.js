@@ -5,7 +5,6 @@ const Footer = () => {
     const styles = {
         color: "#f00"
     }
-
     return (
         <footer>
             <div className="container">
