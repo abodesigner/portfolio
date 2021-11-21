@@ -1,0 +1,92 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "image": "/images/onemall.jpg",
+            "title": "OneEmall",
+            "desc": "E-commerece",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://www.oneemall.net/"
+        },
+        {
+            "id": 2,
+            "image": "/images/wtxhub.jpg",
+            "title": "WTXHUB",
+            "desc": "Import & Export CO",
+            "tech": ["HTML", "CSS", "Vue.js", "Bootstrap"],
+            "link": "https://abodesigner.github.io/wtxhub/"
+        },
+        {
+            "id": 3,
+            "image": "/images/lemonall.png",
+            "title": "lemonAI",
+            "desc": "Software House",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/lemonAI/"
+        },
+        {
+            "id": 4,
+            "image": "/images/socialmedia.jpg",
+            "title": "Pyramids-Group",
+            "desc": "Marketing & Digital Sevices",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/Pyramids-kuwait/"
+        },
+        {
+            "id": 5,
+            "image": "/images/andlusia.jpg",
+            "title": "Andalusia-Group",
+            "desc": "Medical Sevices co.",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/Andalusia-Group/"
+        },
+        {
+            "id": 6,
+            "image": "/images/fresh.jpg",
+            "title": "Freshness Food Checker",
+            "desc": "Mobile App landing page",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/Food-Freshness-Checker/"
+        },
+        {
+            "id": 7,
+            "image": "/images/coffeerun.jpg",
+            "title": "CoffeeRun",
+            "desc": "coffeeShop",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/coffeeRun/"
+        },
+        {
+            "id": 8,
+            "image": "/images/mercatto2.jpg",
+            "title": "Mercato",
+            "desc": "Coffee Shop",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/mercato-cafe/"
+        },
+        {
+            "id": 9,
+            "image": "/images/goldenTarget.jpg",
+            "title": "goldenTarget",
+            "desc": "Hydro-electrical co.",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/golden-Target/"
+        },
+        {
+            "id": 10,
+            "image": "/images/proj4.jpeg",
+            "title": "Digitopia",
+            "desc": "Software House",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/digitopia/"
+        },
+        {
+            "id": 11,
+            "image": "/images/books.jpg",
+            "title": "El Waha",
+            "desc": "Sell/Borrow Books",
+            "tech": ["HTML", "CSS", "Jquery", "Bootstrap"],
+            "link": "https://abodesigner.github.io/el-waha/"
+        }
+    ]
+}
