@@ -1,0 +1,87 @@
+.home {
+    height: calc(100% - 94px);
+    min-height: 500px;
+    background-color: #ffe156;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.home-content img.img-fluid {
+    border-radius: 50%;
+    border: 5px solid var(--mainColor);
+    background-color: #f8f8f8;
+}
+
+.home-content-text span.greeting {
+    color: var(--mainColor);
+    margin-top: 15px;
+    font-weight: normal;
+    display: block;
+    letter-spacing: 5px;
+    text-align: left;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    animation: myAnim 1s ease 1s 1 normal forwards;
+}
+
+.home-content-text span.name {
+    display: block;
+    margin-top: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    color: #dc3545;
+    font-family: "Poppins", sans-serif;
+}
+
+.home-content-text span.job {
+    color: var(--mainColor);
+    letter-spacing: 5px;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.home-content-text p.lead {
+    color: var(--mainColor);
+}
+
+.effect-hover {
+    overflow: hidden;
+}
+
+.effect-hover img {
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+}
+
+.effect-hover img:hover {
+    transform: scale(1) rotate(360deg);
+}
+
+/* RESPONSIVE */
+@media (max-width: 575px) {
+    .home {
+        min-height: 400px;
+    }
+    .home-content-text span.greeting {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .home-content-text span.name {
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+
+    .home-content-text span.job {
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    .home-content-text button.btn-outline-dark {
+        width: 100%;
+        display: block;
+    }
+}

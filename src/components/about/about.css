@@ -1,0 +1,32 @@
+.about-section {
+    background-color: #1abc9c;
+    min-height: 300px;
+}
+
+.about-section h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.about-content p.lead {
+    font-size: 1.5rem;
+    font-family: "Open Sans";
+}
+
+.about-section .custom-divider .custom-divider-icon .fas.fa-star {
+    color: var(--mainColor);
+}
+
+/* RESPONSIVE */
+@media (max-width: 575px) {
+    .about-section {
+        padding: 15px 0;
+    }
+    .about-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p.lead {
+        text-align: justify;
+    }
+}

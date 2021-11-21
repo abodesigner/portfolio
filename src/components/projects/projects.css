@@ -1,0 +1,72 @@
+.projects h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: var(--mainColor);
+}
+
+.projects .proj {
+    padding: 0;
+    position: relative;
+}
+
+.text .data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-family: "Baloo Tamma", cursive;
+    border-left: 5px solid var(--mainColor);
+    padding: 15px 10px;
+}
+
+.text .data h5 {
+    color: #dc3545;
+}
+
+.text .data h6 {
+    color: var(--mainColor);
+}
+
+.text a {
+    color: var(--mainColor);
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 575px) {
+    .projects h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) = lg */
+@media (min-width: 992px) {
+    .projects .proj .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: 0.3s ease-in-out;
+        transform: scale(0);
+        opacity: 0.8;
+    }
+
+    .projects .proj:hover .overlay {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
